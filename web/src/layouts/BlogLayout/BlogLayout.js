@@ -1,5 +1,5 @@
-import { Link, routes } from '@redwoodjs/router'
 import { useAuth } from '@redwoodjs/auth'
+import { Link, routes } from '@redwoodjs/router'
 
 const BlogLayout = ({ children }) => {
   const { logIn, logOut, isAuthenticated, currentUser } = useAuth()
@@ -12,7 +12,7 @@ const BlogLayout = ({ children }) => {
             className="text-blue-400 hover:text-blue-100 transition duration-100"
             to={routes.home()}
           >
-            Redwood Blog
+            AB's Blog
           </Link>
         </h1>
         <nav>
